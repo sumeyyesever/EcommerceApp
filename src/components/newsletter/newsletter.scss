@@ -1,0 +1,39 @@
+.newsletter{
+    height: 350px;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
+
+    h1{
+        font-size: 80px;
+    }
+
+    p{
+        margin: 20px 0;
+        font-size: 25px;
+    }
+
+    .input-container{
+        display: flex;
+        width: 50%;
+        height: 40px;
+        border: 1px solid black;
+
+        input{
+            flex: 8;
+            border: none;
+            font-size: 15px;
+            &:focus{
+                outline: none;
+            }
+        }
+        button{
+            flex: 1;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
