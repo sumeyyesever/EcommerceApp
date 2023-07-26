@@ -1,0 +1,78 @@
+.navbar {
+    height: 90px;
+    background-color: white;  
+    top: 0;
+    z-index: 2;
+  
+    .wrapper {
+        padding: 10px 60px;
+        text-align: center;
+        .top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .left {
+                flex: 1;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                .language {
+                    display: flex;
+                    align-items: center;
+                    font-size: 15px;
+                }
+                .input {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    input {
+                        border-radius: 10px;
+                        border: 1px solid black;
+                        height: 25px;
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+                }
+            }
+            .center {
+                flex: 1;
+                letter-spacing: 2px;
+                text-align: left;
+            }
+            .right {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                .cart {
+                    position: relative;
+                    span {
+                        position: absolute;
+                        width: 17px;
+                        height: 17px;
+                        background-color: black;
+                        color: white;
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        bottom: -1px;
+                        right: -8px;
+                    } 
+                }
+            }
+        }
+        .bottom {
+            display: inline-block;
+            margin: 10px 200px;
+            
+        
+            .item {
+                display: inline;
+                font-weight: 400;
+                letter-spacing: 0.7px;
+                margin: 10px;
+            }
+        }
+    }
+}

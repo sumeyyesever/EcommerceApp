@@ -1,0 +1,106 @@
+.single{
+    display: flex;
+    padding: 30px 40px;
+
+    .left{
+        display: flex;
+        flex: 1;
+        margin-right: 50px;
+
+        .small-images{
+            flex: 1;
+            img{
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+                margin-bottom: 10px;
+                cursor: pointer;
+            }
+        }
+
+        .big-image{
+            flex: 4;
+            img{
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .right{
+        flex: 1;
+        
+        h1{
+            font-size: 45px;
+            font-weight: 200;
+            margin-bottom: 10px;
+        }
+
+        .logo{
+            color: gray;
+        }
+
+        p{
+            margin: 10px 0;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+
+        .price{
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .color-container{
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            span{
+                font-size: 20px;
+                font-weight: 200;
+            }
+            .color{
+                cursor: pointer;
+                margin-left: 5px;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                background-color: black;
+                border: 1px solid black;
+            }
+        }
+        .size-container{
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+
+            span{
+                font-size: 20px;
+                font-weight: 200;
+            }
+            .size{
+                cursor: pointer;
+                width: 30px;
+                height: 20px;
+                border: 1px solid black;
+                margin-left: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        .button-container{
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+
+            button{
+                margin-bottom: 5px;
+                height: 50px;
+                font-weight: 500;
+                cursor: pointer;
+                border: 1px solid black;
+            }
+        }
+    }
+}
