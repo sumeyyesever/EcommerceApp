@@ -18,7 +18,7 @@ export default function Navbar() {
                 </div>
             </div>
             <div className='center'>
-            <Link className='link' to="/" ><h1>SMY.</h1></Link>
+            <Link className='link' to="/" ><h1 className='h1-logo'>SMY.</h1></Link>
             </div>
             <div className='right'>
             

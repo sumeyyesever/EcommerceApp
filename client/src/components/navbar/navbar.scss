@@ -10,7 +10,7 @@
         .top {
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            justify-content:space-between;
             .left {
                 flex: 1;
                 display: flex;
@@ -39,10 +39,13 @@
                 flex: 1;
                 letter-spacing: 2px;
                 text-align: left;
+                align-items: start;
             }
             .right {
+                flex: 1;
                 display: flex;
                 align-items: center;
+                justify-content: flex-end;
                 gap: 5px;
                 .cart {
                     position: relative;
